@@ -211,14 +211,14 @@ return [
     'Datasources' => [
         'default' => [
             'className' => 'Cake\Database\Connection',
-            'driver' => 'Cake\Database\Driver\Mysql',
+            'driver' => 'Cake\Database\Driver\Postgres',
             'persistent' => false,
 
             //Local
-            'host' => 'localhost',
-            'username' => 'root',
-            'password' => '',
-            'database' => 'pms',
+            'host' => 'ec2-107-22-241-205.compute-1.amazonaws.com',
+            'username' => 'ptbghjopvlgsyj',
+            'password' => '3fc10421b645bf34ec40f285a0bedd7d608e60117ca8871439b0437c08e3f94b',
+            'database' => 'd1qgg1mgo3ufe9',
 
             //Demo
             /*'host' => 'fictionsoft.com',
