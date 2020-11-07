@@ -4,6 +4,4 @@
     RewriteRule    (.*) webroot/$1    [L]
 </IfModule>
 
-php_value upload_max_filesize 10M
-php_value post_max_size 11M
-php_value max_execution_time 60 
+
